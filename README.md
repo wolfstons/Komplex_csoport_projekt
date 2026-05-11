@@ -93,7 +93,8 @@ A JavaScript alkalmazás belépési pontja az index.js fájl, amely az oldal mű
 
 Mappa struktúra áttekintése
 Az alábbi ábra a projekt logikai felépítését mutatja:
-projekt-neve/
+```
+játék sarok/
 │
 ├─ index.html
 ├─ digitalis.html
@@ -124,7 +125,7 @@ projekt-neve/
 │   └─ fixtures/
 │
 └─ README.md
-
+```
 
 HTML fájlok szerepe
 A projekt több HTML oldalt tartalmaz, amelyek külön fájlban helyezkednek el.
@@ -190,7 +191,7 @@ Ez az UML ábra a weboldal logikai felépítését mutatja be, különös tekint
 
 UML komponens / logikai ábra
 
-
+```plantuml
 @startuml
 package "HTML oldalak" {
   [index.html]
@@ -224,6 +225,7 @@ index.js --> "Utils Module"
 "Card Module" --> digitalis.json
 "Card Module" --> tarsas.json
 @enduml
+```
 
 UML ábra magyarázata
 HTML oldalak

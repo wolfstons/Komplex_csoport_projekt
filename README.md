@@ -217,7 +217,7 @@ index_js --> UtilsModule
 CardModule --> digitalis_json
 CardModule --> tarsas_json
 ```
-
+![UML ábra](./assets/images/kozos/UML.png)
 UML ábra magyarázata
 HTML oldalak
 Az UML ábra bal oldalán a HTML oldalak láthatók:

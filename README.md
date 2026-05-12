@@ -1,18 +1,16 @@
 # Weboldal dokumentáció – Digitális és társasjátékok
-Projekt célja
+## Projekt célja
 A projekt célja egy olyan egyszerű, mégis jól bővíthető weboldal elkészítése, amely különböző típusú játékokat mutat be.
 A weboldal két fő kategóriára bontja a tartalmat:
 
-Digitális játékok
-Társasjátékok
+## Digitális játékok,Társasjátékok
 
 A megvalósítás során fontos szempont volt, hogy az oldal később továbbfejleszthető legyen, például adatbázisos tárolás irányába.
 
-Weboldal felépítése
+## Weboldal felépítése
 A weboldal két külön HTML oldalból áll, amelyek egy közös navigációs menüből érhetők el:
 
-Digitális játékok oldala
-Társasjátékok oldala
+## Digitális játékok oldala, Társasjátékok oldala
 
 Mindkét oldal azonos szerkezetet és megjelenést használ, ezzel biztosítva az egységes felhasználói élményt.
 
@@ -82,7 +80,7 @@ Admin felület új játékok hozzáadásához
 Reszponzív megjelenés mobil eszközökre
 
 
-Összegzés
+## Összegzés
 A weboldal egy jól strukturált, könnyen érthető alapot biztosít egy játékbemutató rendszerhez.
 A HTML, CSS, JavaScript és JSON elkülönített használata segíti az átláthatóságot és a továbbfejlesztést, így a projekt alkalmas tanulási és későbbi fejlesztési célokra is.
 
@@ -190,41 +188,34 @@ UML ábra – Rendszer felépítése
 Ez az UML ábra a weboldal logikai felépítését mutatja be, különös tekintettel a JavaScript alkalmazás moduláris struktúrájára és az adatok áramlására.
 
 UML komponens / logikai ábra
+``` mermaid
 
-```plantuml
-@startuml
-package "HTML oldalak" {
-  [index.html]
-  [digitalis.html]
-  [tarsas.html]
-}
+classDiagram
+direction LR
 
-package "JavaScript (assets/js)" {
-  [index.js] <<entry point>>
+class index_html["index.html"]
+class digitalis_html["digitalis.html"]
+class tarsas_html["tarsas.html"]
 
-  package "modules" {
-    [Navigation Module]
-    [Card Module]
-    [Utils Module]
-  }
+class index_js["index.js (entry point)"]
 
-  package "data" {
-    [digitalis.json]
-    [tarsas.json]
-  }
-}
+class NavigationModule["Navigation Module"]
+class CardModule["Card Module"]
+class UtilsModule["Utils Module"]
 
-index.html --> index.js
-digitalis.html --> index.js
-tarsas.html --> index.js
+class digitalis_json["digitalis.json"]
+class tarsas_json["tarsas.json"]
 
-index.js --> "Navigation Module"
-index.js --> "Card Module"
-index.js --> "Utils Module"
+index_html --> index_js
+digitalis_html --> index_js
+tarsas_html --> index_js
 
-"Card Module" --> digitalis.json
-"Card Module" --> tarsas.json
-@enduml
+index_js --> NavigationModule
+index_js --> CardModule
+index_js --> UtilsModule
+
+CardModule --> digitalis_json
+CardModule --> tarsas_json
 ```
 
 UML ábra magyarázata
@@ -309,7 +300,7 @@ Ez a felépítés megfelel a modern frontend fejlesztési alapelveknek, és jól
 Drótváz (Wireframe) és felhasználói felület leírása
 Ez a fejezet a weboldal tervezett felépítését és vizuális elrendezését mutatja be drótváz (wireframe) segítségével.
 A drótváz célja, hogy a funkcionális elrendezést és az oldalelemek hierarchiáját szemléltesse, nem pedig a végleges dizájnt.
-
+```
 Általános oldalelrendezés
 A weboldal minden oldala azonos alapstruktúrát követ:
 +--------------------------------------------------+
@@ -327,9 +318,9 @@ A weboldal minden oldala azonos alapstruktúrát követ:
 |                                                  |
 |  [ Bővebb ]   [ Bővebb ]   [ Bővebb ]   [ Bővebb]|
 +--------------------------------------------------+
+```
 
-
-Navigáció (fejléc)
+## Navigáció (fejléc)
 A fejlécben egy egyszerű navigációs menü található, amely minden oldalon azonos.
 Tartalma:
 
@@ -357,7 +348,7 @@ Ez az elrendezés:
 vizuálisan egységes,
 jól skálázható későbbi bővítés esetén.
 
-
+```
 Egy kártya felépítése
 Egy kártya az alábbi elemeket tartalmazza:
 +--------------------------+
@@ -367,8 +358,8 @@ Egy kártya az alábbi elemeket tartalmazza:
 +--------------------------+
 | [ Bővebb leírás ]        |
 +--------------------------+
-
-Kártyaelemek szerepe:
+```
+## Kártyaelemek szerepe:
 
 Kép: vizuális azonosítás
 Rövid leírás: gyors áttekintés
@@ -415,7 +406,7 @@ Cypress tesztek könnyebb megtervezése,
 egységes felhasználói élmény minden oldalon.
 
 
-Összegzés
+## Összegzés
 A bemutatott drótváz egy letisztult, jól strukturált weboldalt ír le, amely:
 
 kártyás elrendezést használ,

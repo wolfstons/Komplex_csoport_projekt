@@ -10,6 +10,22 @@ header img{
 }
 
 header nav{
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
     
+    text-align: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }

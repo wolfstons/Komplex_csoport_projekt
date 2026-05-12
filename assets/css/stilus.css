@@ -1,0 +1,15 @@
+header{
+    background-color: rgb(211, 210, 210);
+    margin: 2px;
+    padding: 10px;
+}
+
+header img{
+    width: 150px;
+    height: auto;
+}
+
+header nav{
+    text-align: right;
+    
+}

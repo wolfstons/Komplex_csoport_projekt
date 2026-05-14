@@ -1,0 +1,33 @@
+# ===== Rendszerfájlok =====
+.DS_Store
+Thumbs.db
+
+# ===== Node / csomagkezelő =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Build / cache =====
+dist/
+build/
+.cache/
+
+# ===== Cypress =====
+cypress/videos/
+cypress/screenshots/
+
+# ===== Környezeti változók =====
+.env
+.env.local
+
+# ===== IDE / szerkesztő =====
+.vscode/
+.idea/
+
+# ===== Log fájlok =====
+*.log
+
+# ===== Ideiglenes fájlok =====
+*.tmp
+*.temp

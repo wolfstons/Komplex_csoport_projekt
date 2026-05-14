@@ -1,0 +1,39 @@
+import Service from "../service/Service.js";
+import Game from "../game/Game.js";
+
+export default class Cards {
+    constructor(containerId) {
+        this.containerElement = document.getElementById(containerId);
+        this.cards = [];
+    }
+
+    loadGames(gamesData) {
+        this.cards = gamesData.map(data => new Game(data));
+    }
+
+    renderCards() {
+        if (!this.containerElement) return;
+
+        this.containerElement.innerHTML = "";
+
+        this.cards.forEach(game => {
+            const card = Service.createElement("div", "card");
+
+            card.innerHTML = `
+                <img src="${game.imagePath}" alt="${game.title}">
+                <h3>${game.title}</h3>
+                <p>${game.getShortText()}</p>
+                <button data-id="${game.id}">Bővebb leírás</button>
+            `;
+
+            card.querySelector("button")
+                .addEventListener("click", () => this.handleDetailsClick(game));
+
+            this.containerElement.appendChild(card);
+        });
+    }
+
+    handleDetailsClick(game) {
+        alert(game.getDetails());
+    }
+}

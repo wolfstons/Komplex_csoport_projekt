@@ -3,6 +3,10 @@ header{
     margin: 2px;
     padding: 10px;
 }
+h1{
+    text-align: center;
+
+}
 
 header img{
     width: 150px;

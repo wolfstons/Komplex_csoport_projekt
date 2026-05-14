@@ -83,6 +83,12 @@ header nav ul{
     color: rgb(0, 128, 85);
     cursor: pointer;
 }
+.card:hover {  
+     
+transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.445);
+
+}
 
 footer{
     text-align: center;

@@ -2,9 +2,10 @@ import Service from "../service/Service.js";
 import Game from "../game/Game.js";
 
 export default class Cards {
+    #cards
     constructor(containerId) {
-        this.containerElement = document.getElementById(containerId);
-        this.cards = [];
+        this.containerElem = document.getElementById(containerId);
+        this.#cards = [];
     }
 
     loadGames(gamesData) {
@@ -12,9 +13,9 @@ export default class Cards {
     }
 
     renderCards() {
-        if (!this.containerElement) return;
+        if (!this.containerElem) return;
 
-        this.containerElement.innerHTML = "";
+        this.containerElem.innerHTML = "";
 
         this.cards.forEach(game => {
             const card = Service.createElement("div", "card");
@@ -29,7 +30,7 @@ export default class Cards {
             card.querySelector("button")
                 .addEventListener("click", () => this.handleDetailsClick(game));
 
-            this.containerElement.appendChild(card);
+            this.containerElem.appendChild(card);
         });
     }
 

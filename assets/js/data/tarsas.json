@@ -1,0 +1,34 @@
+[
+  {
+    "id": 101,
+    "title": "Catan",
+    "imagePath": "assets/images/tarsas/catan.jpg",
+    "shortDescription": "Stratégiai társasjáték erőforrás‑kezeléssel.",
+    "longDescription": "A Catan egy klasszikus társasjáték, ahol a játékosok településeket építenek, kereskednek és stratégiai döntéseket hoznak.",
+    "type": "tarsas"
+  },
+  {
+    "id": 102,
+    "title": "Dixit",
+    "imagePath": "assets/images/tarsas/dixit.jpg",
+    "shortDescription": "Kreatív és asszociációs kártyajáték.",
+    "longDescription": "A Dixit egy fantáziadús társasjáték, ahol a játékosok képekhez kapcsolódó történeteket találnak ki és próbálják kitalálni egymás gondolatait.",
+    "type": "tarsas"
+  },
+  {
+    "id": 103,
+    "title": "Carcassonne",
+    "imagePath": "assets/images/tarsas/carcassonne.jpg",
+    "shortDescription": "Lapkarakós stratégiai társasjáték.",
+    "longDescription": "A Carcassonne egy egyszerű szabályú, de taktikus társasjáték, ahol városokat, utakat és kolostorokat építünk.",
+    "type": "tarsas"
+  },
+  {
+    "id": 104,
+    "title": "Bang!",
+    "imagePath": "assets/images/tarsas/bang.jpg",
+    "shortDescription": "Kártyajáték vadnyugati témával.",
+    "longDescription": "A Bang! egy szerepalapú kártyajáték, ahol a játékosok titkos szerepekkel próbálják teljesíteni céljaikat a vadnyugaton.",
+    "type": "tarsas"
+  }
+]

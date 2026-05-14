@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Minecraft",
+    "imagePath": "assets/images/digitalis/minecraft.jpg",
+    "shortDescription": "Kreatív sandbox játék építéssel és túléléssel.",
+    "longDescription": "A Minecraft egy nyílt világú sandbox játék, ahol a játékosok szabadon építhetnek, felfedezhetnek és túlélhetnek egy véletlenszerűen generált világban.",
+    "type": "digitalis"
+  },
+  {
+    "id": 2,
+    "title": "The Witcher 3",
+    "imagePath": "assets/images/digitalis/witcher3.jpg",
+    "shortDescription": "Nyílt világú szerepjáték történetközpontú játékmenettel.",
+    "longDescription": "A The Witcher 3 egy történetvezérelt RPG, ahol Geralt szerepében szörnyeket vadászol és döntéseiddel befolyásolod a világ sorsát.",
+    "type": "digitalis"
+  },
+  {
+    "id": 3,
+    "title": "Among Us",
+    "imagePath": "assets/images/digitalis/amongus.jpg",
+    "shortDescription": "Többjátékos társas dedukciós játék.",
+    "longDescription": "Az Among Us egy multiplayer játék, ahol a játékosoknak együtt kell működniük, miközben megpróbálják leleplezni az imposztorokat.",
+    "type": "digitalis"
+  },
+  {
+    "id": 4,
+    "title": "Stardew Valley",
+    "imagePath": "assets/images/digitalis/stardew.jpg",
+    "shortDescription": "Nyugodt farmépítős szerepjáték.",
+    "longDescription": "A Stardew Valley egy indie játék, ahol egy elhagyatott farmot kell újjáépíteni, kapcsolatokat kialakítani és felfedezni a környező világot.",
+    "type": "digitalis"
+  }
+]

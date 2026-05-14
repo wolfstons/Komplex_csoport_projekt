@@ -89,11 +89,10 @@ játék sarok/
 │       │   └─ tarsas.json
 │       │
 │       ├─ modules/
-│       │   ├─ CardService.js
+│       │   ├─ Cards.js
 │       │   ├─ Navigation.js
 │       │   ├─ AppController.js
-│       │   ├─ DataService.js
-│       │   ├─ Utils.js
+│       │   ├─ Service.js
 │       │   └─ Game.js
 │       │
 │       └─ index.js
@@ -192,13 +191,13 @@ A navigáció működéséért felel
 Egységes menüt biztosít minden oldalon
 Elkülönítése megkönnyíti a karbantartást és a tesztelést
 
-### Card Module
+### CardS Module
 
 A játékokat megjelenítő kártyák logikáját kezeli
 Kapcsolatban áll az adatfájlokkal
 Felel a kártyák megjelenítéséért és az interakciókért
 
-### Utils Module
+### Service Module
 
 Általános segédfeladatokat lát el
 Nem kötődik közvetlenül sem a navigációhoz, sem a kártyákhoz

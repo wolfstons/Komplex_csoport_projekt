@@ -4,31 +4,191 @@
     "title": "Minecraft",
     "imagePath": "assets/images/digitalis/minecraft.jpg",
     "shortDescription": "Kreatív sandbox játék építéssel és túléléssel.",
-    "longDescription": "A Minecraft egy nyílt világú sandbox játék, ahol a játékosok szabadon építhetnek, felfedezhetnek és túlélhetnek egy véletlenszerűen generált világban.",
+    "longDescription": "A Minecraft egy nyílt világú sandbox játék, ahol a játékosok építhetnek, bányászhatnak és túlélhetnek egy véletlenszerűen generált világban.",
     "type": "digitalis"
   },
   {
     "id": 2,
-    "title": "The Witcher 3",
-    "imagePath": "assets/images/digitalis/witcher3.jpg",
-    "shortDescription": "Nyílt világú szerepjáték történetközpontú játékmenettel.",
-    "longDescription": "A The Witcher 3 egy történetvezérelt RPG, ahol Geralt szerepében szörnyeket vadászol és döntéseiddel befolyásolod a világ sorsát.",
+    "title": "Grand Theft Auto V",
+    "imagePath": "assets/images/digitalis/gta5.jpg",
+    "shortDescription": "Nyílt világú akciójáték bűnözői történettel.",
+    "longDescription": "A GTA V Los Santos városában játszódik, ahol három különböző karakter története fonódik össze akciódús küldetések során.",
     "type": "digitalis"
   },
   {
     "id": 3,
-    "title": "Among Us",
-    "imagePath": "assets/images/digitalis/amongus.jpg",
-    "shortDescription": "Többjátékos társas dedukciós játék.",
-    "longDescription": "Az Among Us egy multiplayer játék, ahol a játékosoknak együtt kell működniük, miközben megpróbálják leleplezni az imposztorokat.",
+    "title": "The Witcher 3: Wild Hunt",
+    "imagePath": "assets/images/digitalis/witcher3.jpg",
+    "shortDescription": "Történetközpontú nyílt világú szerepjáték.",
+    "longDescription": "Geralt, a szörnyvadász egy hatalmas fantasy világban kutat eltűnt fogadott lánya után, miközben morális döntéseket hoz.",
     "type": "digitalis"
   },
   {
     "id": 4,
+    "title": "League of Legends",
+    "imagePath": "assets/images/digitalis/lol.jpg",
+    "shortDescription": "Online csapatalapú stratégiai játék.",
+    "longDescription": "A League of Legends egy kompetitív MOBA játék, ahol két öt fős csapat küzd egymás ellen taktikai alapokon.",
+    "type": "digitalis"
+  },
+  {
+    "id": 5,
+    "title": "Counter-Strike 2",
+    "imagePath": "assets/images/digitalis/cs2.jpg",
+    "shortDescription": "Gyors tempójú taktikai lövöldözős játék.",
+    "longDescription": "A Counter-Strike 2 a klasszikus CS játékmenetet modern technológiával és versenyközpontú mechanikákkal ötvözi.",
+    "type": "digitalis"
+  },
+  {
+    "id": 6,
+    "title": "Fortnite",
+    "imagePath": "assets/images/digitalis/fortnite.jpg",
+    "shortDescription": "Battle royale játék építési elemekkel.",
+    "longDescription": "A Fortnite egy pörgős túlélőjáték, ahol az utolsó életben maradó játékos vagy csapat nyer.",
+    "type": "digitalis"
+  },
+  {
+    "id": 7,
+    "title": "Among Us",
+    "imagePath": "assets/images/digitalis/amongus.jpg",
+    "shortDescription": "Többjátékos dedukciós party játék.",
+    "longDescription": "A játékosok együttműködnek, miközben megpróbálják leleplezni az árulókat a csapaton belül.",
+    "type": "digitalis"
+  },
+  {
+    "id": 8,
+    "title": "Red Dead Redemption 2",
+    "imagePath": "assets/images/digitalis/rdr2.jpg",
+    "shortDescription": "Vadnyugati nyílt világú akciójáték.",
+    "longDescription": "Egy részletesen kidolgozott világban követhetjük Arthur Morgan történetét a vadnyugat hanyatlásának idején.",
+    "type": "digitalis"
+  },
+  {
+    "id": 9,
+    "title": "Elden Ring",
+    "imagePath": "assets/images/digitalis/eldenring.jpg",
+    "shortDescription": "Kihívást jelentő fantasy akció-RPG.",
+    "longDescription": "A FromSoftware játéka egy hatalmas, sötét fantasy világban játszódik, ahol a felfedezés és a harc kulcsfontosságú.",
+    "type": "digitalis"
+  },
+  {
+    "id": 10,
+    "title": "Cyberpunk 2077",
+    "imagePath": "assets/images/digitalis/cyberpunk2077.jpg",
+    "shortDescription": "Sci-fi nyílt világú szerepjáték.",
+    "longDescription": "Night City futurisztikus világában a játékos döntései jelentősen befolyásolják a történetet.",
+    "type": "digitalis"
+  },
+  {
+    "id": 11,
+    "title": "Valorant",
+    "imagePath": "assets/images/digitalis/valorant.jpg",
+    "shortDescription": "Taktikai FPS egyedi képességekkel.",
+    "longDescription": "A Valorant a precíz lövöldözést hősalapú képességekkel kombinálja.",
+    "type": "digitalis"
+  },
+  {
+    "id": 12,
+    "title": "Call of Duty: Warzone",
+    "imagePath": "assets/images/digitalis/warzone.jpg",
+    "shortDescription": "Modern battle royale FPS.",
+    "longDescription": "Nagy létszámú multiplayer csaták modern fegyverekkel és realisztikus környezettel.",
+    "type": "digitalis"
+  },
+  {
+    "id": 13,
+    "title": "World of Warcraft",
+    "imagePath": "assets/images/digitalis/wow.jpg",
+    "shortDescription": "Massively multiplayer online szerepjáték.",
+    "longDescription": "A Warcraft univerzumában játszódó MMO, ahol játékosok ezrei kalandoznak együtt.",
+    "type": "digitalis"
+  },
+  {
+    "id": 14,
+    "title": "The Sims 4",
+    "imagePath": "assets/images/digitalis/sims4.jpg",
+    "shortDescription": "Életszimulációs játék.",
+    "longDescription": "A játékosok virtuális emberek életét irányítják, házakat építenek és kapcsolatokat alakítanak ki.",
+    "type": "digitalis"
+  },
+  {
+    "id": 16,
     "title": "Stardew Valley",
     "imagePath": "assets/images/digitalis/stardew.jpg",
     "shortDescription": "Nyugodt farmépítős szerepjáték.",
-    "longDescription": "A Stardew Valley egy indie játék, ahol egy elhagyatott farmot kell újjáépíteni, kapcsolatokat kialakítani és felfedezni a környező világot.",
+    "longDescription": "Egy elhagyatott farmot kell újjáépíteni, miközben kapcsolatokat alakítunk ki a falubeliekkel.",
+    "type": "digitalis"
+  },
+  {
+    "id": 17,
+    "title": "Assassin’s Creed Valhalla",
+    "imagePath": "assets/images/digitalis/acvalhalla.jpg",
+    "shortDescription": "Viking témájú akció-kalandjáték.",
+    "longDescription": "A játékos egy viking harcost irányít Anglia meghódítása során.",
+    "type": "digitalis"
+  },
+  {
+    "id": 18,
+    "title": "God of War",
+    "imagePath": "assets/images/digitalis/godofwar.jpg",
+    "shortDescription": "Akció-kalandjáték mitológiai elemekkel.",
+    "longDescription": "Kratos és fia utazását követhetjük egy érzelmekkel teli történetben.",
+    "type": "digitalis"
+  },
+  {
+    "id": 19,
+    "title": "FIFA 24",
+    "imagePath": "assets/images/digitalis/fifa24.jpg",
+    "shortDescription": "Futballszimulátor.",
+    "longDescription": "Valósághű labdarúgó-mérkőzések licencelt csapatokkal és ligákkal.",
+    "type": "digitalis"
+  },
+  {
+    "id": 20,
+    "title": "Rocket League",
+    "imagePath": "assets/images/digitalis/rocketleague.jpg",
+    "shortDescription": "Autós focijáték.",
+    "longDescription": "Gyors tempójú sportjáték, ahol rakétahajtású autókkal kell gólt szerezni.",
+    "type": "digitalis"
+  },
+  {
+    "id": 21,
+    "title": "Dota 2",
+    "imagePath": "assets/images/digitalis/dota2.jpg",
+    "shortDescription": "Komplex MOBA játék.",
+    "longDescription": "Két csapat stratégiai küzdelme egy részletes, mély mechanikájú játéktéren.",
+    "type": "digitalis"
+  },
+  {
+    "id": 22,
+    "title": "Hollow Knight",
+    "imagePath": "assets/images/digitalis/hollowknight.jpg",
+    "shortDescription": "Kézzel rajzolt metroidvania játék.",
+    "longDescription": "Egy titokzatos föld alatti világ felfedezése precíz harcrendszerrel.",
+    "type": "digitalis"
+  },
+  {
+    "id": 23,
+    "title": "Terraria",
+    "imagePath": "assets/images/digitalis/terraria.jpg",
+    "shortDescription": "2D sandbox kalandjáték.",
+    "longDescription": "Felfedezés, építés és harc egy procedurálisan generált világban.",
+    "type": "digitalis"
+  },
+  {
+    "id": 24,
+    "title": "Overwatch 2",
+    "imagePath": "assets/images/digitalis/overwatch2.jpg",
+    "shortDescription": "Hős-alapú csapatos lövöldözős játék.",
+    "longDescription": "Gyors, színes és csapatalapú FPS különböző karakterekkel.",
+    "type": "digitalis"
+  },
+  {
+    "id": 25,
+    "title": "Dead by Daylight",
+    "imagePath": "assets/images/digitalis/dbd.jpg",
+    "shortDescription": "Aszimmetrikus horror multiplayer.",
+    "longDescription": "Túlélők és gyilkosok küzdenek egymás ellen egy sötét, horrorisztikus környezetben.",
     "type": "digitalis"
   }
 ]

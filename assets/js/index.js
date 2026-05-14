@@ -46,5 +46,9 @@ function renderCards(games) {
   });
 }
 
-new AppController(page).start();
+const app=new AppController(page)
+app.start();
 
+/*document.addEventListener("showGameDetails", (event) => {
+    app.handleShowDetails(event.detail.game, event.detail.cardElement);
+});*/

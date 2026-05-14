@@ -11,6 +11,12 @@ export default class AppController {
   }
 
   start() {
+
+    //feliratkozunk az eseményre, hogy megjelenítsük a részletes leírást
+    document.addEventListener("showGameDetails", (event) => {
+      this.showDetails(event.detail.game, event.detail.cardElement);
+    });
+
     this.navigation.render();
     this.navigation.handleClick();
 
@@ -48,4 +54,3 @@ export default class AppController {
   }
 }
 
-//new AppController().start();

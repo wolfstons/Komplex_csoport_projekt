@@ -12,38 +12,43 @@ export default class Cards {
     this.cards = gamesData.map((data) => new Game(data));
   }
 
-  renderCards() {
-    if (!this.#containerElem) return;
+  
+renderCards() {
+        this.#containerElem.innerHTML = "";
 
-    this.#containerElem.innerHTML = "";
+        this.cards.forEach(game => {
+            const card = document.createElement("div");
+            card.classList.add("card");
 
-    this.cards.forEach((game) => {
-      const card = Service.createElement("div", "card");
-
-      card.innerHTML = `
-                <img src="${game.imagePath}" alt="${game.title}">
-                <h3>${game.title}</h3>
+            card.innerHTML = `
+                <img src="${game.getImagePath()}" alt="${game.getTitle()}">
+                <h3>${game.getTitle()}</h3>
                 <p>${game.getShortText()}</p>
-                <button data-id="${game.id}">Bővebb leírás</button>
+                <button class="details-btn">Bővebb leírás</button>
             `;
 
-      card
-        .querySelector("button")
-        .addEventListener("click", () => this.handleDetailsClick(game));
+            //eseményt küldünk
+            card.querySelector(".details-btn").addEventListener("click", () => {
+                this.dispatchDetailsEvent(game, card);
+            });
 
-      this.#containerElem.appendChild(card);
-    });
-  }
+            this.#containerElem.appendChild(card);
+        });
+    }
+
   //fejlesztésre szorulo rész!!!!
 
-  dispatchDetailsEvent(game, cardElement) {
-    const event = new CustomEvent("detailsRequested", {
-      detail: {
-        game: game,
-        cardElement: cardElement,
-      },
-    });
+  
+ dispatchDetailsEvent(game, cardElement) {
+        const event = new CustomEvent("showGameDetails", {
+            detail: {
+                game: game,
+                cardElement: cardElement
+            }
+        });
 
-    document.dispatchEvent(event);
-  }
+        document.dispatchEvent(event);
+    }
+
 }
+

@@ -162,6 +162,7 @@ Ez az UML ábra a weboldal logikai felépítését mutatja be, különös tekint
 UML komponens / logikai ábra
 
 ![UML ábra](./assets/images/kozos/UML.png)
+
 ### UML ábra magyarázata
 HTML oldalak
 Az UML ábra bal oldalán a HTML oldalak láthatók:

@@ -1,10 +1,11 @@
-import Navigation from "./modules/navigation/Navigation.js";
-import Cards from "./modules/card/Cards.js";
-import Service from "./modules/service/Service.js";
+import Navigation from "./Navigation.js";
+import Cards from "./Cards.js";
+import Service from "./Service.js";
 
-class AppController {
-    constructor() {
-        this.currentPage = window.location.pathname;
+export default class AppController {
+    #currentPage
+    constructor(currentPage) {
+        this.#currentPage =currentPage;
         this.navigation = new Navigation();
         this.cards = null;
     }
@@ -13,11 +14,11 @@ class AppController {
         this.navigation.render();
         this.navigation.handleClick();
 
-        if (this.currentPage.includes("digitalis")) {
+        if (this.#currentPage.includes("digitalis")) {
             this.initCards("assets/js/data/digitalis.json");
         }
 
-        if (this.currentPage.includes("tarsas")) {
+        if (this.#currentPage.includes("tarsas")) {
             this.initCards("assets/js/data/tarsas.json");
         }
     }
@@ -33,5 +34,4 @@ class AppController {
     }
 }
 
-new AppController().start();
-``
+//new AppController().start();

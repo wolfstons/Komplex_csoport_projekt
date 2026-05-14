@@ -1,4 +1,7 @@
 export default class Game {
+   //kárty osztálya  
+    
+    
     #id;
     #title;
     #imagePath;

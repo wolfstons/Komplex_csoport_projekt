@@ -1,44 +1,53 @@
 export default class Game {
-   //kárty osztálya  
-    
-    
-    #id;
-    #title;
-    #imagePath;
-    #shortDescription;
-    #longDescription;
-    #type;
+  //kárty osztálya
 
-    constructor({ id, title, imagePath, shortDescription, longDescription, type }) {
-        this.#id = id;
-        this.#title = title;
-        this.#imagePath = imagePath;
-        this.#shortDescription = shortDescription;
-        this.#longDescription = longDescription;
-        this.#type = type;
-    }
+  #id;
+  #title;
+  #imagePath;
+  #shortDescription;
+  #longDescription;
+  #type;
 
-    getId() {
-        return this.#id;
-    }
+  constructor({
+    id,
+    title,
+    imagePath,
+    shortDescription,
+    longDescription,
+    type,
+  }) {
+    this.#id = id;
+    this.#title = title;
+    this.#imagePath = imagePath;
+    this.#shortDescription = shortDescription;
+    this.#longDescription = longDescription;
+    this.#type = type;
+  }
 
-    getTitle() {
-        return this.#title;
-    }
+  getId() {
+    return this.#id;
+  }
 
-    getImagePath() {
-        return this.#imagePath;
-    }
+  getTitle() {
+    return this.#title;
+  }
 
-    getShortText() {
-        return this.#shortDescription;
-    }
+  getImagePath() {
+    return this.#imagePath;
+  }
 
-    getDetails() {
-        return this.#longDescription;
-    }
+  getShortText() {
+    return this.#shortDescription;
+  }
+  getLongDescription() {
+    return this.#longDescription;
+  }
 
-    getType() {
-        return this.#type;
-    }
+  getDetails() {
+    return this.#longDescription;
+  }
+
+  getType() {
+    return this.#type;
+  }
 }

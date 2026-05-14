@@ -1,11 +1,15 @@
 header{
-    background-color: rgb(211, 210, 210);
-    margin: 2px;
+    background-color: rgb(211, 210, 210, 0.705);
+    margin: 10px;
     padding: 10px;
+    border-radius: 5px;
 }
-h1{
+main h1{
     text-align: center;
+}
 
+main h2{
+    text-align: center;
 }
 
 header img{
@@ -16,7 +20,6 @@ header img{
 header nav{
     display: flex;
     justify-content: space-between;
-    
     text-align: right;
 }
 
@@ -25,6 +28,11 @@ nav a{
     color: black;
     font-size: 20px;
     margin-left: 20px;
+}
+
+nav a:hover{
+    background-color: rgba(185, 185, 185, 0.507);
+    cursor: pointer;
 }
 
 nav ul{
@@ -36,9 +44,31 @@ nav ul{
 #cards-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 .card{
-    border: 1px solid black;
+    border: 1px solid rgba(119, 119, 119, 0.548);
     gap: 10px;
     padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card button{
+    border: none;
+    background-color: white;
+
+}
+
+.card button:hover{
+    color: rgb(0, 128, 85);
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(211, 210, 210, 0.705);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }

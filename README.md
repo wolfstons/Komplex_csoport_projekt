@@ -231,6 +231,9 @@ A drótváz célja, hogy a funkcionális elrendezést és az oldalelemek hierarc
 ```
 Általános oldalelrendezés
 A weboldal minden oldala azonos alapstruktúrát követ:
+```
+![Grafikus terv](./assets/images/kozos/grafikusterv.png)
+```
 +--------------------------------------------------+
 |                 FEJLÉC / NAVIGÁCIÓ               |
 |  [ Digitális játékok ] [ Társasjátékok ]         |
